@@ -67,12 +67,9 @@ app.post('/', function(req,res){
 app.post('/failure', function(req,res){
 
     res.redirect('/');
-})
-
-app.listen(process.env.PORT || 3000, function(){
-
-    console.log('Server running at 3000');
 });
+
+
 
 //API key
 //c84e3bf99207b53b5a043d4c1bb551a4-us21
