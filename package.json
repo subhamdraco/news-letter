@@ -4,7 +4,7 @@
   "description": "Mailchimp API",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon",
+    "start": "node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Subham Ghosh",
